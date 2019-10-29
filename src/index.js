@@ -2,8 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
+import HomePage from './pages/home';
 import DashboardPage from './pages/dashboard';
-import HomePage from './pages/dashboard';
 
 function App () {
   return (
